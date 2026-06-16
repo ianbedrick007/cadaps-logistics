@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadaps Logistics Limited | Premium Freight & Shipping, Tema Ghana</title>
+  <meta name="description" content="Cadaps Logistics Limited is a premier freight forwarder in Tema, Ghana. Expert import, export, haulage, and transshipment services across West Africa.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+
+  <!-- Floating WhatsApp Action -->
+  <a href="https://wa.me/233240000000" target="_blank" rel="noopener noreferrer" class="whatsapp-float" id="whatsappFloat" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
+      <path d="M12.012 2C6.48 2 2 6.48 2 12.012c0 1.764.456 3.48 1.332 5l-1.416 5.184 5.304-1.392a9.973 9.973 0 0 0 4.792 1.212c5.532 0 10.012-4.48 10.012-10.012A10.017 10.017 0 0 0 12.012 2zm5.724 14.16c-.24.672-1.2 1.32-1.644 1.368-.444.048-.876.228-2.904-.576-2.592-1.032-4.248-3.66-4.38-3.828-.12-.18-1.044-1.392-1.044-2.652 0-1.26.66-1.884.9-2.148.24-.264.528-.324.708-.324.18 0 .36 0 .516.012.168.012.396-.06.612.456.228.564.78 1.908.852 2.052.072.144.12.312.024.504-.096.192-.144.312-.288.48-.144.168-.312.384-.444.516-.144.144-.3.3-.132.588.168.288.756 1.248 1.62 2.016.9 1.056 1.836 1.38 2.016 1.488.18.108.288.096.396-.024.108-.12.468-.54.588-.732.132-.18.252-.156.42-.096.168.06 1.08.504 1.26.6.18.096.3.144.348.228.048.072.048.432-.192 1.104z"/>
+    </svg>
+  </a>
+
+  <!-- Header -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo-link">
+        <img src="/src/assets/logo.png" alt="Cadaps Logistics Ltd Logo" class="logo-img">
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul>
+          <li><a href="#" class="nav-link active">Home</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#tracking" class="nav-link">Track</a></li>
+          <li><a href="#port-advantage" class="nav-link">Tema Port</a></li>
+          <li><a href="#quote" class="nav-link">Quote Estimator</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#quote" class="btn btn-primary btn-sm hide-mobile">Get a Quote</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-content">
+        <span class="badge fade-in-up">Tema, Ghana Gateway to West Africa</span>
+        <h1 class="fade-in-up delay-1">Navigating Global Trade, <br><span class="accent-text">Delivering Local Trust</span></h1>
+        <p class="fade-in-up delay-2">Cadaps Logistics Limited provides world-class freight forwarding, customs clearance, transshipment, and heavy haulage solutions tailored for West Africa and beyond.</p>
+        
+        <div class="hero-buttons fade-in-up delay-3">
+          <a href="#tracking" class="btn btn-primary">Track Shipment</a>
+          <a href="#services" class="btn btn-outline">Our Services</a>
+        </div>
+      </div>
+
+      <!-- Quick Tracker Box -->
+      <div class="hero-quick-track fade-in-up delay-4">
+        <h3>Fast Container Lookup</h3>
+        <p>Enter your cargo reference for a real-time progress simulation.</p>
+        <form id="heroTrackForm" class="quick-track-form">
+          <input type="text" id="heroTrackInput" placeholder="e.g. CDPS-88402-GH" required>
+          <button type="submit" class="btn btn-primary btn-icon">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trusted By Section -->
+  <section class="trusted-section">
+    <div class="container">
+      <p class="trusted-title">Trusted by Industry Leaders & Partners</p>
+      <div class="partner-logos">
+        <div class="partner-logo">
+          <img src="/src/assets/partner_miniplast.png" alt="Miniplast Ltd Logo">
+        </div>
+        <div class="partner-logo">
+          <img src="/src/assets/partner_apollo.jpg" alt="Apollo Steel Ghana Limited Logo">
+        </div>
+        <div class="partner-logo logo-svg-wahu">
+          <div class="wahu-logo-box">
+            <span class="wahu-text">wahu<span class="wahu-excl">!</span></span>
+            <span class="wahu-tagline">Charged with Freedom</span>
+          </div>
+        </div>
+        <div class="partner-logo logo-svg-cave">
+          <div class="cave-logo-box">
+            <div class="cave-icon">
+              <span class="cave-g">G</span>
+            </div>
+            <span class="cave-text">CAVE & GARDENS</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Tracking Section -->
+  <section id="tracking" class="section tracking-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Real-Time Mockup</span>
+        <h2 class="section-title">Shipment Tracking System</h2>
+        <p class="section-desc">Experience our real-time shipment monitoring interface. Try typing your tracking number below.</p>
+      </div>
+
+      <div class="tracker-card">
+        <div class="tracker-input-wrapper">
+          <input type="text" id="mainTrackInput" placeholder="Enter Cargo tracking reference (e.g. CDPS-77492-GH)" value="CDPS-77492-GH">
+          <button id="trackBtn" class="btn btn-primary">Track Now</button>
+        </div>
+        
+        <div class="demo-ids">
+          <span>Demo References:</span>
+          <button class="demo-ref-btn">CDPS-77492-GH</button>
+          <button class="demo-ref-btn">CDPS-10825-US</button>
+          <button class="demo-ref-btn">CDPS-44391-EU</button>
+        </div>
+
+        <!-- Tracking Timeline Visualizer -->
+        <div class="tracking-results-panel active" id="trackingResults">
+          <div class="shipment-summary">
+            <div>
+              <span class="label">Reference:</span>
+              <strong id="summaryRef">CDPS-77492-GH</strong>
+            </div>
+            <div>
+              <span class="label">Status:</span>
+              <span class="badge badge-success" id="summaryStatus">In Transit</span>
+            </div>
+            <div>
+              <span class="label">Origin:</span>
+              <span id="summaryOrigin">Port of Shanghai, CN</span>
+            </div>
+            <div>
+              <span class="label">Destination:</span>
+              <span id="summaryDest">Port of Tema, GH</span>
+            </div>
+          </div>
+
+          <div class="timeline" id="timeline">
+            <!-- Timeline Item 1 -->
+            <div class="timeline-item completed">
+              <div class="timeline-marker">
+                <span class="marker-dot"></span>
+              </div>
+              <div class="timeline-content">
+                <h4>Cargo Received & Manifested</h4>
+                <p class="time">June 08, 2026 - 09:30 AM</p>
+                <p class="location">Shanghai Logistics Hub, CN</p>
+              </div>
+            </div>
+            <!-- Timeline Item 2 -->
+            <div class="timeline-item completed">
+              <div class="timeline-marker">
+                <span class="marker-dot"></span>
+              </div>
+              <div class="timeline-content">
+                <h4>Customs Cleared & Loaded</h4>
+                <p class="time">June 10, 2026 - 04:15 PM</p>
+                <p class="location">Port of Shanghai Terminal 3</p>
+              </div>
+            </div>
+            <!-- Timeline Item 3 -->
+            <div class="timeline-item active">
+              <div class="timeline-marker">
+                <span class="marker-dot animate-pulse"></span>
+              </div>
+              <div class="timeline-content">
+                <h4>In Transit (Atlantic East Route)</h4>
+                <p class="time">June 15, 2026 - 11:00 AM</p>
+                <p class="location">Vessel: MV Tema Pioneer</p>
+              </div>
+            </div>
+            <!-- Timeline Item 4 -->
+            <div class="timeline-item pending">
+              <div class="timeline-marker">
+                <span class="marker-dot"></span>
+              </div>
+              <div class="timeline-content">
+                <h4>Arrival & Customs Clearance</h4>
+                <p class="time">Expected: June 25, 2026</p>
+                <p class="location">Port of Tema, Ghana</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section services-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Core Capabilities</span>
+        <h2 class="section-title">Freight Forwarding & Logistics</h2>
+        <p class="section-desc">We deliver customized logistics and transport services configured to your cargo requirements.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service Card 1 -->
+        <div class="service-card scroll-reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+              <line x1="8" y1="21" x2="16" y2="21"></line>
+              <line x1="12" y1="17" x2="12" y2="21"></line>
+            </svg>
+          </div>
+          <h3>Import Operations</h3>
+          <p>Complete customs clearance, warehousing, and delivery of sea and air freight arriving at the Tema Port or Kotoka International Airport.</p>
+          <a href="#contact" class="learn-more">Inquire Now &rarr;</a>
+        </div>
+
+        <!-- Service Card 2 -->
+        <div class="service-card scroll-reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 2L11 13"></path>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+          </div>
+          <h3>Export Services</h3>
+          <p>Exporting agricultural, mineral, and commercial cargo from Ghana worldwide. We handle documentation, consolidation, and booking.</p>
+          <a href="#contact" class="learn-more">Inquire Now &rarr;</a>
+        </div>
+
+        <!-- Service Card 3 -->
+        <div class="service-card scroll-reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="1" y="3" width="15" height="13"></rect>
+              <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+              <circle cx="5.5" cy="18.5" r="2.5"></circle>
+              <circle cx="18.5" cy="18.5" r="2.5"></circle>
+            </svg>
+          </div>
+          <h3>Heavy Haulage & Road Transport</h3>
+          <p>Modern fleet for inland haulage in Ghana and landlocked neighboring countries. Safely transporting standard containers and out-of-gauge cargo.</p>
+          <a href="#contact" class="learn-more">Inquire Now &rarr;</a>
+        </div>
+
+        <!-- Service Card 4 -->
+        <div class="service-card scroll-reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+            </svg>
+          </div>
+          <h3>Transshipment Solutions</h3>
+          <p>Handling and re-routing goods through Tema's port. Safe intermediate storage and rapid transit processing to transit markets like Burkina Faso, Mali, and Niger.</p>
+          <a href="#contact" class="learn-more">Inquire Now &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tema Port Advantage Section -->
+  <section id="port-advantage" class="section port-advantage-section">
+    <div class="container">
+      <div class="grid-two-cols">
+        <div class="port-content scroll-reveal">
+          <span class="section-subtitle">Local Hub, Global Impact</span>
+          <h2 class="section-title">Tema Port: Gateway to West Africa</h2>
+          <p>Situated in Tema, Ghana, Cadaps Logistics operates at the crossroads of major shipping lanes. The Port of Tema is one of the largest and most advanced maritime terminals in West Africa, offering key transit corridors inland.</p>
+          <p>We leverage our close proximity to port authorities, customs, and transport terminals to ensure your cargo clearing and freight forward processes happen without bottlenecks.</p>
+          
+          <div class="stats-grid">
+            <div class="stat-box">
+              <div class="stat-number">12+</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-number">99.4%</div>
+              <div class="stat-label">Clearance Success</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-number">24/7</div>
+              <div class="stat-label">Cargo Monitoring</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="port-visual scroll-reveal">
+          <div class="visual-wrapper">
+            <div class="glass-card visual-card">
+              <h3>Tema Port Clearance</h3>
+              <div class="port-routes">
+                <div class="route-item">
+                  <div class="route-point">Sea Inbound</div>
+                  <div class="route-connector">&rarr;</div>
+                  <div class="route-point highlighted">Tema Hub</div>
+                  <div class="route-connector">&rarr;</div>
+                  <div class="route-point">Inland Transit</div>
+                </div>
+              </div>
+              <div class="loading-bar">
+                <div class="loading-progress" style="width: 85%;"></div>
+              </div>
+              <p class="caption">Direct transit access to Ghana, Burkina Faso, Mali, and Niger.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quote Estimator Section -->
+  <section id="quote" class="section quote-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Transparent Pricing</span>
+        <h2 class="section-title">Freight Cost Estimator</h2>
+        <p class="section-desc">Select shipment parameters to receive an instant mock price estimation. Contact us to lock it in.</p>
+      </div>
+
+      <div class="quote-grid">
+        <!-- Estimator Form -->
+        <div class="estimator-card scroll-reveal">
+          <h3>Estimate Calculator</h3>
+          <form id="estimatorForm" class="estimator-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="calcService">Service Type</label>
+                <select id="calcService">
+                  <option value="sea" selected>Sea Freight (FCL/LCL)</option>
+                  <option value="air">Air Freight</option>
+                  <option value="haulage">Heavy Haulage / Road</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <label for="calcRoute">Transit Route</label>
+                <select id="calcRoute">
+                  <option value="asia-tema">Asia to Tema Port</option>
+                  <option value="eu-tema">Europe to Tema Port</option>
+                  <option value="tema-transit">Tema Port to Transit Country (Burkina/Mali)</option>
+                  <option value="tema-local">Local Haulage (Tema to Accra/Kumasi)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="calcWeight">Cargo Weight (kg)</label>
+                <input type="number" id="calcWeight" value="500" min="1">
+              </div>
+
+              <div class="form-group">
+                <label for="calcVolume">Cargo Volume (m³)</label>
+                <input type="number" id="calcVolume" value="2" min="0.1" step="0.1">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="calcContainer">Container Size</label>
+              <select id="calcContainer">
+                <option value="none">LCL / Loose Cargo (By Weight/Vol)</option>
+                <option value="20ft">20ft Standard Container</option>
+                <option value="40ft">40ft Standard Container</option>
+              </select>
+            </div>
+
+            <button type="button" id="btnCalculate" class="btn btn-primary btn-full">Generate Quote Request</button>
+          </form>
+        </div>
+
+        <!-- Result Display -->
+        <div class="estimate-result-card scroll-reveal">
+          <div class="result-header">
+            <h3>Logistics Quote Request</h3>
+            <span class="est-disclaimer">No automated estimate; pricing is custom-tailored</span>
+          </div>
+
+          <div class="result-price-display quote-pending-box">
+            <span class="price-val quote-text-banner" id="priceValue" style="font-size: 1.8rem; line-height: 1.3; font-weight: 700; text-align: center; display: block; width: 100%;">Contact Us for a Quote</span>
+          </div>
+
+          <div class="result-details">
+            <div class="detail-row">
+              <span>Selected Mode:</span>
+              <span id="resMode">Sea Freight</span>
+            </div>
+            <div class="detail-row">
+              <span>Transit Route:</span>
+              <span id="resRoute">Asia to Tema Port</span>
+            </div>
+            <div class="detail-row">
+              <span>Est. Transit Time:</span>
+              <span id="resTime">22 - 28 Days</span>
+            </div>
+          </div>
+
+          <div class="result-action">
+            <a href="#" id="btnRequestQuoteMail" class="btn btn-accent btn-full">Email Quote Parameters</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Get in Touch</span>
+        <h2 class="section-title">Partner with Cadaps Logistics</h2>
+        <p class="section-desc">Submit your transport request or speak directly with our clearing agents in Tema.</p>
+      </div>
+
+      <div class="grid-two-cols">
+        <!-- Contact Information -->
+        <div class="contact-info scroll-reveal">
+          <div class="info-card">
+            <h3>Headquarters</h3>
+            <p>Community 5, Tema, Ghana</p>
+          </div>
+
+          <div class="info-card">
+            <h3>Contact Channels</h3>
+            <p><strong>Email:</strong> <a href="mailto:cadman@cadapslogistics.com" style="text-decoration: underline; color: var(--color-primary);">cadman@cadapslogistics.com</a></p>
+            <p><strong>Hotlines:</strong> +233 (0) 24 493 4589</p>
+          </div>
+
+          <div class="info-card">
+            <h3>Operating Hours</h3>
+            <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+            <p>Saturday: 9:00 AM - 1:00 PM</p>
+            <p>24/7 Monitoring for On-transit Haulage</p>
+          </div>
+
+          <div class="whatsapp-card">
+            <h4>Urgent Clearing Request?</h4>
+            <p>Connect immediately with a registered agent on WhatsApp for instant clearance support.</p>
+            <a href="https://wa.me/233244934589" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                <path d="M12.012 2C6.48 2 2 6.48 2 12.012c0 1.764.456 3.48 1.332 5l-1.416 5.184 5.304-1.392a9.973 9.973 0 0 0 4.792 1.212c5.532 0 10.012-4.48 10.012-10.012A10.017 10.017 0 0 0 12.012 2zm5.724 14.16c-.24.672-1.2 1.32-1.644 1.368-.444.048-.876.228-2.904-.576-2.592-1.032-4.248-3.66-4.38-3.828-.12-.18-1.044-1.392-1.044-2.652 0-1.26.66-1.884.9-2.148.24-.264.528-.324.708-.324.18 0 .36 0 .516.012.168.012.396-.06.612.456.228.564.78 1.908.852 2.052.072.144.12.312.024.504-.096.192-.144.312-.288.48-.144.168-.312.384-.444.516-.144.144-.3.3-.132.588.168.288.756 1.248 1.62 2.016.9 1.056 1.836 1.38 2.016 1.488.18.108.288.096.396-.024.108-.12.468-.54.588-.732.132-.18.252-.156.42-.096.168.06 1.08.504 1.26.6.18.096.3.144.348.228.048.072.048.432-.192 1.104z"/>
+              </svg>
+              Chat on WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-wrapper scroll-reveal">
+          <form id="contactForm" class="contact-form">
+            <h3>Request Cargo Clearing / Quote</h3>
+            
+            <div class="input-group">
+              <input type="text" id="contactName" required placeholder=" ">
+              <label for="contactName">Your Name / Company</label>
+            </div>
+
+            <div class="input-group">
+              <input type="email" id="contactEmail" required placeholder=" ">
+              <label for="contactEmail">Email Address</label>
+            </div>
+
+            <div class="input-group">
+              <input type="tel" id="contactPhone" placeholder=" ">
+              <label for="contactPhone">Phone Number</label>
+            </div>
+
+            <div class="input-group">
+              <textarea id="contactMessage" rows="5" required placeholder=" "></textarea>
+              <label for="contactMessage">Describe your shipment details (weight, container quantity, cargo type, route)...</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo-link">
+            <img src="/src/assets/logo.png" alt="Cadaps Logistics Ltd Logo" class="logo-img">
+          </a>
+          <p>Cadaps Logistics Limited is a licensed custom clearing agent and freight forwarding firm based in Tema, Ghana.</p>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Import Clearance</a></li>
+            <li><a href="#services">Export Forwarding</a></li>
+            <li><a href="#services">Heavy Haulage</a></li>
+            <li><a href="#services">Transshipment & Transit</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#tracking">Shipment Tracker</a></li>
+            <li><a href="#quote">Freight Calculator</a></li>
+            <li><a href="#port-advantage">Tema Port Info</a></li>
+            <li><a href="#contact">Customs Requirements</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Cadaps Logistics Limited. All Rights Reserved. Designed with excellence.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JS Script -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
