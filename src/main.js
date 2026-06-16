@@ -196,16 +196,18 @@ function updateTrackerUI(referenceCode) {
   trackingResults.classList.add('active');
 }
 
-// Track button click
+// Track button click - redirects to external track-trace container portal
 trackBtn.addEventListener('click', () => {
   if (mainTrackInput.value) {
-    updateTrackerUI(mainTrackInput.value);
+    window.open('https://www.track-trace.com/container', '_blank');
   }
 });
 
 mainTrackInput.addEventListener('keypress', (e) => {
   if (e.key === 'Enter') {
-    updateTrackerUI(mainTrackInput.value);
+    if (mainTrackInput.value) {
+      window.open('https://www.track-trace.com/container', '_blank');
+    }
   }
 });
 
@@ -213,7 +215,7 @@ mainTrackInput.addEventListener('keypress', (e) => {
 demoRefBtns.forEach(btn => {
   btn.addEventListener('click', () => {
     mainTrackInput.value = btn.textContent;
-    updateTrackerUI(btn.textContent);
+    window.open('https://www.track-trace.com/container', '_blank');
   });
 });
 
@@ -224,13 +226,7 @@ if (heroTrackForm) {
     const query = heroTrackInput.value;
     if (query) {
       mainTrackInput.value = query;
-      updateTrackerUI(query);
-      
-      // Scroll to tracking section
-      const targetSec = document.getElementById('tracking');
-      if (targetSec) {
-        targetSec.scrollIntoView({ behavior: 'smooth' });
-      }
+      window.open('https://www.track-trace.com/container', '_blank');
     }
   });
 }
